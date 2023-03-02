@@ -1,0 +1,28 @@
+@import '../../styles/main.scss';
+
+header {
+  height: 100vh;
+
+  .navbar {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .headerImage {
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+
+    .text {
+      h1 {
+        color: $color-hellblau;
+      }
+
+      h4 {
+        color: $color-hellgruen;
+      }
+    }
+  }
+}

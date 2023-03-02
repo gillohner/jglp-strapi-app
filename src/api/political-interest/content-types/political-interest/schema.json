@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "political_interests",
+  "info": {
+    "singularName": "political-interest",
+    "pluralName": "political-interests",
+    "displayName": "PoliticalInterest"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

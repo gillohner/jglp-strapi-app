@@ -1,0 +1,53 @@
+// Import the color variables file
+@import 'colors';
+
+// Set the default font families
+$font-family-text: 'Ubuntu', sans-serif !default;
+$font-family-monospace: monospace !default;
+$font-family-title: 'Oswald', sans-serif !default;
+
+// Set the default font sizes
+$font-size-root: 16px !default;
+$font-size-base: $font-size-root !default;
+$font-size-lg: $font-size-root * 1.25 !default;
+$font-size-sm: $font-size-root * 0.875 !default;
+
+// Set the default line heights
+$line-height-base: 1.5 !default;
+$line-height-lg: 1.25 !default;
+$line-height-sm: 1.5 !default;
+
+// Set the default font weights
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+// Set the default colors
+$primary-color: $color-hellblau !default;
+$secondary-color: $color-hellgruen !default;
+$success-color: $color-dunkelgruen !default;
+$info-color: $color-dunkelblau !default;
+$warning-color: $color-korallrot !default;
+$danger-color: $color-korallrot !default;
+$light-color: $color-weiss !default;
+$dark-color: $color-schwarz !default;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-title;
+}
+
+a,
+p,
+li,
+span {
+  font-family: $font-family-text;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+}
